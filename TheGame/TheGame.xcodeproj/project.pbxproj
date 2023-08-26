@@ -13,6 +13,7 @@
 		880657E82A9A527E007131C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880657E72A9A527E007131C5 /* Assets.xcassets */; };
 		880657EB2A9A527E007131C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880657E92A9A527E007131C5 /* LaunchScreen.storyboard */; };
 		880657F52A9A5CE4007131C5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880657F42A9A5CE4007131C5 /* HomeScreen.swift */; };
+		880657F82A9A6826007131C5 /* ScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880657F72A9A6826007131C5 /* ScreenTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		880657EA2A9A527E007131C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880657EC2A9A527E007131C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880657F42A9A5CE4007131C5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		880657F72A9A6826007131C5 /* ScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,6 @@
 				880657F22A9A5C9E007131C5 /* Home */,
 				880657DE2A9A527D007131C5 /* AppDelegate.swift */,
 				880657E02A9A527D007131C5 /* SceneDelegate.swift */,
-				880657E22A9A527D007131C5 /* HomeViewController.swift */,
 				880657E72A9A527E007131C5 /* Assets.xcassets */,
 				880657E92A9A527E007131C5 /* LaunchScreen.storyboard */,
 				880657EC2A9A527E007131C5 /* Info.plist */,
@@ -70,6 +71,7 @@
 		880657F22A9A5C9E007131C5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				880657F62A9A67A6007131C5 /* Cell */,
 				880657F32A9A5CBF007131C5 /* Screen */,
 			);
 			path = Home;
@@ -79,8 +81,17 @@
 			isa = PBXGroup;
 			children = (
 				880657F42A9A5CE4007131C5 /* HomeScreen.swift */,
+				880657E22A9A527D007131C5 /* HomeViewController.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		880657F62A9A67A6007131C5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				880657F72A9A6826007131C5 /* ScreenTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			files = (
 				880657F52A9A5CE4007131C5 /* HomeScreen.swift in Sources */,
 				880657E32A9A527D007131C5 /* HomeViewController.swift in Sources */,
+				880657F82A9A6826007131C5 /* ScreenTableViewCell.swift in Sources */,
 				880657DF2A9A527D007131C5 /* AppDelegate.swift in Sources */,
 				880657E12A9A527D007131C5 /* SceneDelegate.swift in Sources */,
 			);
